@@ -1,15 +1,35 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { useState } from 'react'
-import Test from './components/Test/Test'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header1 from './components/Header/Header1';
+import Home1 from './Components/Home/Home1';
+import Slaeder from './Components/Slaeder/Slaeder';
+
+import Cart1 from './Components/Crat/Cart1';
+import Footer1 from './Components/Footer/footer1';
+
+
+import Deatils1 from './Components/Deatils/Deatils1';
+import Mycart1 from './Components/MyCart/Mycart1';
+
+
+
+
+
 
 function App() {
-  const [x, setx] = useState(0)
+
   return (
     <>
-    <Test set = {setx} />
-    <p>{x}</p>
+   
+ <Header1 />
+ <Home1 />
+ 
+   <Slaeder  /> 
+   <Cart1 />
+
+<Footer1 />
+<Mycart1 />
+<Deatils1 />
     </>
   )
 }

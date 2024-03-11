@@ -1,0 +1,53 @@
+.slider {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  position: relative;
+ flex-wrap: wrap;
+
+ 
+}
+
+.images-container {
+ 
+  overflow: hidden;
+  display: flex; 
+  width: 47vw;
+
+  align-content: center;
+  
+}
+
+.images {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: calc(100% * (totalImages / numOfVisibleImages));
+
+}
+
+.slide-image {
+  width: calc(100% / numOfVisibleImages);
+  flex-shrink: 0;
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+
+   
+}
+.dev{
+  height:75px;
+  width:51vw;
+  background-color: rgb(229, 235, 235);
+position:absolute;
+top:55px;
+right:180px;
+border-radius: 20px;
+
+
+z-index: -1;
+
+
+}
+
+/

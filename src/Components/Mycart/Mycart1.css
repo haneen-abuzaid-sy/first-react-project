@@ -1,0 +1,31 @@
+.det{
+    position: relative;
+   
+}
+.im1 {
+ 
+   height:450px;
+  position: absolute;
+  z-index: -1;
+  bottom: 200px;
+}
+.active{
+    color:#976E72 !important;
+     text-decoration-line:underline ;
+      border-radius: 4px;
+      
+      transition: all .2s ease-in-out;
+      
+  }
+  .select1{
+     border: 0;
+  }
+  /* .tertiary{
+  background-color:white !important;
+  } */
+  tr{
+    padding:  400px;
+  }
+ td{
+  font-size:10px;
+ }

@@ -1,0 +1,11 @@
+.border{
+    border: 0;
+    background-color: white;
+    color: rgb(222, 218, 218);
+}
+@media (max-width:600px) {
+    .parent img {
+      display:none;
+     
+    }
+    }
