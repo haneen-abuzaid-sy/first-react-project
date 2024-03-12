@@ -6,7 +6,7 @@ import { GiMassDriver } from "react-icons/gi";
 import { BiAlbum } from "react-icons/bi";
 import { SlArrowRight } from "react-icons/sl";
 const Cart1 = () => {
-  // const  namecar= ["ADUI","Honda","VOLVO","BMW"]
+
   return (
     <>
     
