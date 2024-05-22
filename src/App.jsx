@@ -1,15 +1,18 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { useState } from 'react'
-import Test from './components/Test/Test'
+import { Provider } from 'react-redux';
+import Product from './Pages/Product';
+import Home1 from './components/Home/Home1';
+import Text1 from './components/Home/Text1';
+
+
 
 function App() {
-  const [x, setx] = useState(0)
+  
   return (
     <>
-    <Test set = {setx} />
-    <p>{x}</p>
+  
+    <Product />
+<Home1 />
+<Text1  />
     </>
   )
 }
